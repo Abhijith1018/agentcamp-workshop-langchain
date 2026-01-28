@@ -1,7 +1,6 @@
 # Virtual environment
 .venv/
 venv/
-env/
 
 # Environment variables (secrets!)
 .env
@@ -9,24 +8,6 @@ env/
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
 
 # Chainlit files
 .chainlit/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Distribution
-dist/
-build/
-*.egg-info/
